@@ -1,6 +1,6 @@
 ---
 - hosts: slave
-tasks:
+- tasks:
 - name: Download Java JRE
   get_url:
   url: http://download.oracle.com/otn-pub/java/jdk/8u60-b27/jre-8u60-linux-x64.rpm
