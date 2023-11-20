@@ -1,5 +1,5 @@
 ---
-- hosts: slave
+- hosts: all
 - tasks:
 - name: Download Java JRE
   get_url:
