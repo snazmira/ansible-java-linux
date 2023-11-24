@@ -1,6 +1,7 @@
 - name: installing java on Slave01
   hosts: Slave01
+  vars: name=openjdk-11-jdk update-cache=yes state=latest
   become: true
   tasks:
   - name: installing java on Slave01
-    vars: name=openjdk-11-jdk update-cache=yes state=latest
+    
