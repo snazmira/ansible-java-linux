@@ -1,5 +1,5 @@
 - name: installing java on Slave01
-  hosts: all
+  hosts: Slave01
   become: true
   tasks:
   - name: installing java on Slave01
